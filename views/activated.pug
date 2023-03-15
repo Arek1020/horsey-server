@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  //- h1 Horsey
+  div(style="display: flex; align-items: center; flex-direction: column; height: 90vh; justify-content: center;")
+    img(src="/images/iconBlue.png" style="width: 300px;")
+    h1(style="margin-top: 100px;") #{activation.success || activation.error}
